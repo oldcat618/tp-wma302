@@ -1,0 +1,21 @@
+ooting from image_1(partition table)
+[    0.852823] Searching for RedBoot partition table
+[    0.857150] 15 RedBoot partitions found on MTD device qcom_nand.0
+[    0.861798] Creating 15 MTD partitions on "qcom_nand.0":
+[    0.867893] 0x000000000000-0x0000003c0000 : "factory_boot"
+[    0.877575] 0x000000400000-0x000000420000 : "factory_info"
+[    0.896072] 0x000000480000-0x0000004a0000 : "art"
+[    0.916013] 0x000000500000-0x000000700000 : "config"
+[    0.936038] 0x000000700000-0x000000740000 : "normal_boot"
+[    0.956031] 0x000000880000-0x000000c80000 : "kernel"
+[    0.976034] 0x000000fc0000-0x000001bc0000 : "rootfs"
+[    0.985525] mtd: device 6 (rootfs) set to be root filesystem
+[    0.994260] 0x000006a00000-0x000008000000 : "rootfs_data"
+[    1.026056] 0x000000800000-0x000002e20000 : "firmware"
+[    1.065997] 0x000004700000-0x000004740000 : "normal_boot_bak"
+[    1.067667] 0x000004880000-0x000004c80000 : "kernel_bak"
+[    1.086021] 0x000004fc0000-0x000005bc0000 : "rootfs_bak"
+[    1.104061] 0x000006a00000-0x000008000000 : "rootfs_data_bak"
+[    1.136036] 0x000004800000-0x000006e20000 : "firmware_bak"
+[    1.176034] 0x000004000000-0x000004020000 : "boot_flag"
+[    1.196410] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 201
